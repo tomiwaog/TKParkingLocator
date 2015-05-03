@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    //Splash Screen to loader before Application View
+    <ImageView android:id="@+id/tklocatorsplash1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:contentDescription="spash-screen"
+        android:src="@mipmap/img_tklocator_splash" />
+
+    <WebView
+        android:id="@+id/activity_main_webview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
